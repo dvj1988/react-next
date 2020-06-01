@@ -1,0 +1,6 @@
+runtime: nodejs10
+
+service: nextjs-test-deployment
+handlers:
+  - url: /.*
+    script: auto
